@@ -185,7 +185,6 @@ $level = $this->session->userdata('level');
                                     <td><?= $t->judulTopologi; ?></td>
                                     <td>
                                         <?= $t->fileTopologi; ?>
-                                        <h5>View PDF POST</h5>
                                         <form action="<?= base_url('/topologiSTI/viewPDF'); ?>" method="POST">
                                             <input type="hidden" name="idTopologiPDF" value="<?= $t->idTopologi; ?>">
                                             <input class="btn btn-warning" type="submit" name="submit" value="View PDF">

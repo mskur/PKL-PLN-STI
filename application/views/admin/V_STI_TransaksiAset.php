@@ -181,7 +181,7 @@ $level = $this->session->userdata('level');
                             <th>Spesifikasi</th>
                             <th>Aksi</th>
                       </thead>
-                      <tbody>
+                      <tbody name="bodyTransaksi">
                         <?php $i = 1; ?>
                             <?php foreach ($allTransaksiAset as $transaksiAset) : ?>
                                 <tr>
